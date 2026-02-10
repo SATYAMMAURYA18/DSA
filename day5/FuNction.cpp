@@ -4,7 +4,7 @@ using namespace std;
 //Function-> Repeation ko km krta hai.
 //function-> ek task ko baar baar uske ke liye hm function ka use krte hai.
 
-void printName(int a)
+void printName(int a)// pass by value means copy create hogi// a is a parameter which is integer.
 {
   for(int i=0; i<a;i++)
   {
@@ -36,5 +36,11 @@ int main()
     cout<<Sum(4,5)<<endl;
     printNUmber(n);
     
-    return 0;// 0 ka matlb successfully execution.
+    //address nikalne ke li m percent lagate hai
+    cout<<"Address of n="<<&n<<endl;
+    return 0;// 0 ka matlb successfully execution.// 0 operating system ko deta hai message ki code done ho chuka hai.
+    //main() returns an integer to the operating system
+   // 0 means ✅ program executed successfully
+   // Non-zero value means ❌ some error occurred
+
 } 
