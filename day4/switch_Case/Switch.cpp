@@ -5,7 +5,8 @@ int main()
     string name;
     cin>>name;
     char ch=name[0];
-    switch(ch){
+    switch(ch)//in switch expression will be any character or number,it will not take string but it can take enum.
+    {
      case 'A':
            cout<<"A"<<endl;
            break;

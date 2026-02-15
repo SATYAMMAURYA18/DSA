@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// hello   
 //binaryToDecimal
 void binaryToDecimal(int num)
 {
