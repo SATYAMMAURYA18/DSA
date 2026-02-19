@@ -15,6 +15,25 @@ using namespace std;
         cout<<result[i]<<" ";
     }
  }
+ void union_dupliacte(vector<int>arr,vector<int>brr)
+ {
+    vector<int>result;
+    for(int i=0;i<arr.size();i++)
+    {
+        result.push_back(arr[i]);
+    }
+    for(int i=0;i<brr.size();i++)
+    {
+        result.push_back(brr[i]);
+    }
+//logic abhi nhi ban paya hai....
+    
+    for(int i=0;i<result.size();i++)
+    {
+        cout<<result[i]<<" ";
+    }
+     
+ }
 int main()
 {
     int n,m;
@@ -34,5 +53,7 @@ int main()
     }
     //if no duplicates are present in the arrays.
     union_non_Duplicate(arr,brr);
+    cout<<endl;
+    union_dupliacte(arr,brr);
     return 0;
 }
