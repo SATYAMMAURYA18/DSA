@@ -35,6 +35,7 @@ int duplicate_number(vector<int> &nums)
 }
 
 // optimal approach
+//t.c=O(N) but in this case we are modifying the array.
 int duplicate_number(vector<int> &nums)
 {
     for (int i = 0; i < nums.size(); i++)
